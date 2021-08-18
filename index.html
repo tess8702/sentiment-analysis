@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<HEAD>
+  <!--meta-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Sentiment Analysis</title>
+
+  <!--Libraries-->
+  <script src="libraries/jquery-3.4.1.min.js"></script>
+
+  <!-- my script file -->
+  <script src="js/main.js"></script>
+  <!-- Custom files -->
+  <link rel="stylesheet" href="css/main.css" />
+
+</HEAD>
+
+<body>
+
+  <h2>Sentiment Analysis</h2>
+  <p>Sentiment analysis algorithms attempt to identify positive, negative, and neutral opinions within text. Try out the following demo by writing your own text, and see for yourself how well it does.</p>
+
+  <div class="input output iobox">
+    <div class='input'>
+      <h3>Please enter your text here</h3>
+      <form>
+        <div>
+          <textarea placeholder="Type yout text here..." class="text-entry"></textarea>
+        </div>
+        <div class="form-error-msg" style="color: red"></div>
+        <button type="button" class="classify tradegothic">Classify Text</button>
+      </form>
+    </div>
+
+    <div class="output">
+      <h3>Check results here</h3>
+      <div class="viz">
+
+        <p id="results"></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</HTML>

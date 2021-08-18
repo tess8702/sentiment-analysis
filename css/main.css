@@ -1,0 +1,48 @@
+/* Main CSS file */
+
+body{
+    color: black;
+    font-size: 1em;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: #fafafa;
+    padding: 0px 10px 0px 10px;
+}
+
+
+h2 {
+  color:#024453;
+}
+
+h3 {
+  color:#024453;
+}
+
+.iobox {
+  display:grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1rem;
+}
+
+.classify{
+  background: #811c34;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  margin: 0;
+  padding: 8px;
+  margin: 2px;
+  cursor: pointer;
+  height: 40px;
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+.text-entry{
+  width: 100%;
+  height: 36pt;
+}
+
+.tradegothic {
+  font-family: "Trade Gothic W01 Bold","TradeGothic LT Bold","Helvetica Neue", Helvetica, sans-serif;
+}
